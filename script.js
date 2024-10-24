@@ -33,4 +33,6 @@ dismessageBtn.addEventListener('click',function(){
     thanksPage.style.display = 'none';
     signupPage.style.cssText = 'flex';
     form.reset();
+    emailInput.classList.remove('error-input');
+    errorMessage.textContent= '';
 })
